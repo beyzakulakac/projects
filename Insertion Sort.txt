@@ -1,0 +1,18 @@
+[22,27,16,2,18,6] sayı dizisini "Insertion Sort" yöntemi ile sıralayacağız.
+-Insertion Sort: eklemeli sıralama anlamına gelir. Dizinin ilk elemanı bir grup kabul edilir ve sonraki elemanlar sırayla bu gruba dahil olarak kendi aralarında sıralanırlar.
+-İlk olarak 22 bir grup kabul edilir ve bu gruba 27 dahil olur ve iki sayı kendi aralarında sıralanırlar.
+1.step -> [22,27|16,2,18,6] bir sonraki aşamada gruba 16 dahil olacak ve grup üyeleri kendi aralarınd sıralanacaklar.
+2.step -> [16,22,27|2,18,6] artık gruba 2 dahil oldu.
+3.step -> [2,16,22,27|18,6] 
+4.step -> [2,16,18,22,27|6]
+5.step -> [2,6,16,18,22,27] ve sıralama tamamlanmış oldu.
+
+Big O Notion hesaplamasına göre n,n-1,n-2,n-3 ... 1 e kadar gidiyor. Toplam = n*(n-1)/2 yani O(n^2).
+
+-18 sayısı Worst Case kapsamına girer.
+
+[7,3,5,8,2,9,4,15,6] sayı dizisinin Insertion Sort yöntemi ile sıralayacağız.
+-Step 1: [7|3,5,8,2,9,4,15,6]
+-Step 2: [3,7|5,8,2,9,4,15,6]
+-Step 3: [3,5,7|8,2,9,4,15,6]
+-Step 4: [3,5,7,8|2,9,4,15,6]
