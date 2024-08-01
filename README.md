@@ -1,1 +1,1 @@
-# projects
+# sorting algorithms
